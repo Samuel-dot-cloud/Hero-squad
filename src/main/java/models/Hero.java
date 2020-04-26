@@ -12,7 +12,7 @@ public class Hero{
     private static List<Hero> instances = new ArrayList<Hero>();
 
 
-}
+
 
     public int getAge() {
         return age;
