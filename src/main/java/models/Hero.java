@@ -13,3 +13,48 @@ public class Hero{
 
 
 }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPower() {
+        return power;
+    }
+
+    public String getWeakness() {
+        return weakness;
+    }
+
+    public Hero(String name, int age, String power, String weakness, int squadId) {
+        this.name = name;
+        this.age = age;
+        this.power = power;
+        this.weakness = weakness;
+        this.squadId = squadId;
+        Squad squad = Squad.find(squadId);
+        squad.addHero(this);
+        instances.add(this);
+        this.id = instances.size();
+    }
+
+    public int getId() {
+        return id;
+    }
+    public int getSquadId() {
+        return squadId;
+    }
+    public static List<Hero> getHeroes() {
+        return instances;
+    }
+    public static void clearAll() {
+        instances.clear();
+    }
+    public static Hero findHero(int n) {
+        return instances.get(n-1);
+    }
+}
