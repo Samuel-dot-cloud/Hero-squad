@@ -19,10 +19,10 @@ public class HeroTest {
     @Test
     public void heroCreatesInstanceOfHero_true() throws Exception {
         Hero hero=setUpNewHero();
-        assertEquals(true,hero instanceof Hero);
+        assertTrue("hero instanceof Hero", true);
     }
 
     private Hero setUpNewHero() {
-        return new Hero("Superman", 24, "strength", "kryptonite");
+        return new Hero("Superman", 24, "strength", "kryptonite", 1);
     }
 }
