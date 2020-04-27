@@ -17,7 +17,7 @@
             {{#each heroes-in-squad}}
                 <li class="card">
 
-                    <a href="/heroes/{{id}}" ><p id="hero-text">{{name}}</p></a>
+                    <a href="/heroes/{{id}}"><p id="hero-text">{{name}}</p></a>
                 </li>
                 <br><br>
             {{/each}}
@@ -26,6 +26,6 @@
         <p class="alert alert-danger card-title">There are no heroes in {{squad.name}} squad</p>
     {{/if}}
 
-    <a href="/heroes/new" class="btn btn-lg btn-success col-md-6"> Add hero</a>
+    <a href="/heroes/new" class="btn btn-lg btn-success col-md-6"> Add a hero now!!</a>
 {{/partial}}
 {{> layout.hbs}}
