@@ -1,14 +1,20 @@
 import models.Hero;
 
+=======
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+=======
+
 import models.Squad;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 import static spark.Spark.*;
+
 
 
 public class App {
@@ -92,7 +98,6 @@ public class App {
         get("/heroes/form", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("squads",Squad.getSquads());
-            return new ModelAndView(model, ".hbs");
-        }, new HandlebarsTemplateEngine());
-    }
-}
+        },return new ModelAndView(model, ".hbs");
+        
+            
