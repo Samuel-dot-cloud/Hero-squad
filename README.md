@@ -1,5 +1,5 @@
 # PROJECT NAME.
-The project is titled 'Hero-squad app'. The project basically functions as the title suggests.
+The project is titled 'Hero-squad app'. The project basically functions as the title suggests.For more information check out the following link:https://samuel-dot-cloud.github.io/Hero-squad/
 
 ## AUTHOR NAME.
 My name is Samuel and i am currently a learning software programmer at Moringa School.:man_technologist::man_technologist:
