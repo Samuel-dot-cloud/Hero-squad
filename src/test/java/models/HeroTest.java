@@ -18,6 +18,7 @@ public class HeroTest {
 
     @Test
     public void heroCreatesInstanceOfHero_true() throws Exception {
+
         Hero hero = setUpNewHero();
         assertTrue(String.valueOf(true), true);
     }
@@ -63,6 +64,12 @@ public class HeroTest {
         assertEquals(Hero.getHeroes().get(0).getId(),2);
 
 
+        Hero hero=setUpNewHero();
+        assertTrue("hero instanceof Hero", true);
+    }
+
+    private Hero setUpNewHero() {
+        return new Hero("Superman", 24, "strength", "kryptonite", 1);
     }
 
         private Hero setUpNewHero () {
