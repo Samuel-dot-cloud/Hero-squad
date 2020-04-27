@@ -25,7 +25,7 @@ The project is a Java web application built with the spark framework whereby a p
 
 
 ### KNOWN BUGS.
----------------
+Deployment of the app through heroku. 
 
 ### CONTACT INFORMATION.
 For more information, feel free to contact me through the email address: samdot@gmail.com
