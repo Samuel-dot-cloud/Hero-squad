@@ -73,13 +73,13 @@
       <plugin>
         <groupId>com.heroku.sdk</groupId>
         <artifactId>heroku-maven-plugin</artifactId>
-        <version>3.0.2</version>
+        <version>0.4.4</version>
         <configuration>
           <jdkVersion>1.8</jdkVersion>
           <!-- Change this to YOUR application name! -->
-          <appName>hero-squad5</appName>
+          <appName>hero-squad5000</appName>
           <processTypes>
-            <web>java -jar target/hero-squad-1.0-jar-with-dependencies.jar</web>
+            <web>java -jar target/my-app-1.0-jar-with-dependencies.jar</web>
           </processTypes>
         </configuration>
       </plugin>
