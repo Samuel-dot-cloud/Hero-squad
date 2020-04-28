@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-group 'com.samking.project2'
+group 'com.samking.hero-squad'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
