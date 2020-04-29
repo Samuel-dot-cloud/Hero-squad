@@ -45,15 +45,7 @@ public class Squad {
     public static ArrayList<Squad> getSquads() {
         return instances;
     }
-    public static void clearSquads() {
-        instances.clear();
-    }
-    public void removeHeroes() {
-        heroes.clear();
-    }
-    public void removeHero(Hero hero) {
-        heroes.remove(hero);
-    }
+
     public static Squad find(int n) {
         return instances.get(n-1);
     }
