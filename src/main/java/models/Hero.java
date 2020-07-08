@@ -51,9 +51,7 @@ public class Hero{
     public static List<Hero> getHeroes() {
         return instances;
     }
-//    public static void clearAll() {
-//        instances.clear();
-//    }
+
     public static Hero findHero(int n) {
         return instances.get(n-1);
     }
